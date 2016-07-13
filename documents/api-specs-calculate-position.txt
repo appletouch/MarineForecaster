@@ -1,0 +1,61 @@
+By city
+http://api.openweathermap.org/data/2.5/forecast?q=amsterdam,nl&appid=bf859d6da67fd0496a2045b509675bbe
+
+by gps position
+http://api.openweathermap.org/data/2.5/forecast?lat=52.16056&lon=5.297778&appid=bf859d6da67fd0496a2045b509675bbe
+
+by gps position and count = 1
+http://api.openweathermap.org/data/2.5/forecast?lat=52.16056&lon=5.297778&cnt=1&appid=bf859d6da67fd0496a2045b509675bbe
+
+in dutch
+http://api.openweathermap.org/data/2.5/forecast?lat=52.16056&lon=5.297778&cnt=1&lang=nl&appid=bf859d6da67fd0496a2045b509675bbe
+
+
+lat: 52� 9' 38"
+lon: 5� 17' 52"
+
+
+52� 9' 38"
+= 52� + 9'/60 + 38"/3600
+= 52.16056�
+
+
+5� 17' 52"
+= 5� + 17'/60 + 52"/3600
+= 5.297778�
+
+
+
+
+*********************************
+How to convert degrees,minutes,seconds to decimal degrees
+
+One degree is equal to 60 minutes and equal to 3600 seconds:
+
+1� = 60' = 3600"
+
+One minute is equal to 1/60 degrees:
+
+1' = (1/60)� = 0.01666667�
+
+One second is equal to 1/3600 degrees:
+
+1" = (1/3600)� = 2.77778e-4� = 0.000277778�
+
+For angle with d integer degrees m minutes and s seconds:
+
+d� m' s" 
+
+The decimal degrees dd is equal to:
+
+dd = d + m/60 + s/3600
+
+Example
+
+Convert 30 degrees 15 minutes and 50 seconds angle to decimal degrees:
+
+30� 15' 50" 
+
+The decimal degrees dd is equal to:
+
+dd = d + m/60 + s/3600 = 30� + 15'/60 + 50"/3600 = 30.263888889�

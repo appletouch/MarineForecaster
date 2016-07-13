@@ -1,0 +1,55 @@
+{
+  "city": {
+    "id": 2747034,
+    "name": "Soest",
+    "coord": {
+      "lon": 5.29167,
+      "lat": 52.173328
+    },
+    "country": "NL",
+    "population": 0,
+    "sys": {
+      "population": 0
+    }
+  },
+  "cod": "200",
+  "message": 0.004,
+  "cnt": 1,
+  "list": [
+    {
+      "dt": 1467990000,
+      "main": {
+        "temp": 292.56,
+        "temp_min": 292.049,
+        "temp_max": 292.56,
+        "pressure": 1026.87,
+        "sea_level": 1027.85,
+        "grnd_level": 1026.87,
+        "humidity": 82,
+        "temp_kf": 0.51
+      },
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "light rain",
+          "icon": "10d"
+        }
+      ],
+      "clouds": {
+        "all": 68
+      },
+      "wind": {
+        "speed": 7.95,
+        "deg": 258.002
+      },
+      "rain": {
+        "3h": 0.0025
+      },
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2016-07-08 15:00:00"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">Date: {{convertToDate({dateParamExScope:weatherDay.dt})}}</h3>
+    </div>
+    <div class="panel-body">
+
+        Daytime temperature: {{ convertToTemp({tempParamExScope:weatherDay.temp.day}) }} --
+        Minimum temperature: {{ convertToTemp({tempParamExScope:weatherDay.temp.min}) }} --
+        Maximum temperature: {{ convertToTemp({tempParamExScope:weatherDay.temp.min}) }}
+    </div>
+</div>
